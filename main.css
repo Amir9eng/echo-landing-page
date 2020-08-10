@@ -8,8 +8,49 @@ body{
   background-color: chocolate;
 }
 .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: white;
   margin: 2rem 2rem;
-  height: 95vh;
+  max-height: 95vh;
   width: 95vw;
 }
+.main-content{
+  height: 100%; 
+}
+.selections{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.option1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.option1 span{
+  margin-left: .5rem;
+}
+.tick{
+  position: absolute;
+  top: .5rem;
+  left: .8rem;
+}
+.option2{
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+.option2 span{
+  margin-left: .5rem;
+}
+.option3{
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+.option3 span{
+  margin-left: .5rem;
+}
+

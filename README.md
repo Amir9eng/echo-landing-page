@@ -1,7 +1,7 @@
 # echo-landing-page
 **An implementation of Echo product page UI with HTML/CSS**
 ## Preview
-[demo](https://echopp.netlify.app/)
+[demo](https://echo-landing-page.netlify.app/)
 
 ## Getting Started
 Clone or download this repository and run with a local server of open `index.html` with your favorite browser

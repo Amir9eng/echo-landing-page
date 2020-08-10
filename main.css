@@ -17,7 +17,21 @@ body{
   width: 95vw;
 }
 .main-content{
-  height: 100%; 
+  height: 100%;
+  margin-left: 2rem; 
+}
+.heading{
+  font-size: 2rem;
+}
+.smart{
+  color: #858997;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+.smart2{
+  color: #858997;
+  font-size: 1.5rem;
+  line-height: 1.375rem;
 }
 .selections{
   display: flex;
@@ -52,5 +66,35 @@ body{
 }
 .option3 span{
   margin-left: .5rem;
+}
+.standard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  height: 66px;
+  width: 99px;
+  background: linear-gradient(180deg, #E33C7A 0%, #C036D0 100%);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: white;
+}
+.echo-dot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  height: 66px;
+  width: 99px;
+  margin-left: 1rem;
+  border: 2px solid #C3C6D1;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(209, 213, 223, 0.5);
+  border-radius: 5px;
+}
+.echo-standard{
+  display: flex;
+  margin-top: 1rem;
+
 }
 

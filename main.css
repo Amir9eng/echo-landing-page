@@ -12,14 +12,17 @@ body{
   align-items: center;
   justify-content: center;
   background-color: white;
-  margin: 2rem 2rem;
-  max-height: 95vh;
-  width: 70vw;
+  margin: 5rem 5rem;
+  height: 442px;
+  width: 770px  ;
   border-radius: 20px;
+
+  
 }
 .main-content{
   height: 100%;
   margin-left: 2rem; 
+  margin-top: 7rem;
 }
 .main-content>div,
 .main-content>span{
